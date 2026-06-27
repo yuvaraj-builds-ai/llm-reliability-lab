@@ -98,13 +98,14 @@ The automated evaluation achieved 100% retrieval, refusal, citation-validation, 
 
 | Metric | Result |
 | --- | ---: |
-| Retrieval Hit@4 | Run evaluation |
-| Refusal Accuracy | Run evaluation |
-| Citation Accuracy | Run evaluation |
-| Output Validity | Run evaluation |
-| Average Latency | Run evaluation |
-| p95 Latency | Run evaluation |
-
+| Retrieval Hit@4 | 100% |
+| Refusal Accuracy | 100% |
+| Citation Validation | 100% |
+| Structured Output Success | 100% |
+| Manual Answer Quality | Pending review |
+| Average Latency | 1.51 seconds |
+| p95 Latency | 2.51 seconds |
+| Offline Tests | 12 passing |
 ## Example failures
 
 Useful failures include retrieval selecting a related but wrong policy, a supported answer omitting a source, or an unsupported prompt producing a plausible invention. Inspect retrieved chunks and manually score the answer before changing prompts.
