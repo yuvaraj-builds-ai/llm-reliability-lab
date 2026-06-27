@@ -1,5 +1,18 @@
 # LLM Reliability Lab
 
+Most RAG demos show answers. This project tests failures.
+
+An open-source evaluation suite for measuring:
+
+- Retrieval accuracy
+- Unsupported-question refusals
+- Citation validity
+- Prompt-injection resistance
+- Structured-output reliability
+- Response latency
+
+Built with Python, FAISS, Sentence Transformers, Streamlit and Pytest.
+
 An evaluation-first RAG assistant that tests retrieval, citations, refusals, prompt injection, and response latency.
 
 > NovaCart is a fictional company. All policies and evaluation data were created solely for this demonstration.
