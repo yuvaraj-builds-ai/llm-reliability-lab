@@ -1,0 +1,34 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated vector index
+data/index/*
+!data/index/.gitkeep
+
+# Temporary evaluation outputs
+reports/evaluation_results.csv
+reports/evaluation_summary.json
+!reports/evaluation_results_reviewed.csv
